@@ -46,4 +46,4 @@ Never commit GMAIL_PASS to GitHub. Use Vercel env variables.
 
 Use HOOK_SECRET to prevent public abuse.
 
-/*
+
