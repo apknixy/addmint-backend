@@ -1,1 +1,8 @@
-{ "name": "addmint-backend", "version": "1.0.0", "description": "Vercel serverless webhook to receive AddMint withdrawal requests and send email via Gmail (Nodemailer).", "main": "api/withdrawal.js", "scripts": { "start": "vercel dev --listen 3000" }, "dependencies": { "nodemailer": "^6.9.4" }, "type": "module", "license": "MIT" }
+{
+  "name": "addmint-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "nodemailer": "^6.9.11"
+  }
+}
